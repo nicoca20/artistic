@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DESIGN_NAME="sonic" # options: sonic, mlem
-LOGO_IMAGE="examples/${DESIGN_NAME}/${DESIGN_NAME}_logo.png" # options: sonic_logo_resized.jpg, mlem_logo.png
+LOGO_IMAGE="examples/${DESIGN_NAME}/${DESIGN_NAME}_logo.png"
 INPUT_GDS="../examples/${DESIGN_NAME}/${DESIGN_NAME}_vanilla.gds.gz"
 TOP_METAL_LAYER=134
-BOX_COORDS="112,112,178,178"  # insertion area
+BOX_COORDS="112,112,178,178"
 WORKDIR="meerkat_work"
 
 
